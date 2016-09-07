@@ -1,6 +1,6 @@
 {
   "name": "example",
-  "version": "6.1.0-beta-3",
+  "version": "6.0.1-beta4",
   "author": {
     "name": "Christoph Stock",
     "email": "stockulus@icloud.com",
@@ -17,15 +17,14 @@
     "ios": "node ./node_modules/react-native/local-cli/cli.js run-ios",
     "android": "node ./node_modules/react-native/local-cli/cli.js run-android",
     "updtr": "updtr --save-exact",
-    "clean-watchman": "watchman watch-del-all",
-    "copy-packages": "sh copy_packages.sh",
-    "postinstall": "npm run copy-packages"
+    "clean-watchman": "watchman watch-del-all"
   },
   "dependencies": {
-    "pouchdb-react-native": "6.1.0-beta-3",
+    "pouchdb-react-native": "6.0.1-beta4",
     "react": "15.3.1",
     "react-native": "0.32.0",
-    "react-native-action-button": "2.0.1"
+    "react-native-action-button": "2.0.1",
+    "util": "0.10.2"
   },
   "standard": {
     "ignore": [
