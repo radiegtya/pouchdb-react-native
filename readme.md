@@ -43,7 +43,7 @@ npm install pouchdb-adapter-asyncstorage --save
 ```
 
 ```js
-import PouchDB from 'pouchdb-core'
+import PouchDB from 'pouchdb-react-native'
 PouchDB.plugin(require('pouchdb-adapter-asyncstorage').default)
 const db = new PouchDB('mydb', {adapter: 'asyncstorage'})
 
